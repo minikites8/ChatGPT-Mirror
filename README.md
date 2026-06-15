@@ -141,7 +141,7 @@ curl --location "${yourUrl}/v1/chat/completions" \
 --header 'Content-Type: application/json' \
 --header "Authorization: Bearer ${accessToken}" \
 --data '{
-     "model": "gpt-4o-mini",
+     "model": "gpt-5.4-mini",
      "messages": [{"role": "user", "content": "你好呀!"}],
      "stream": true,
      "conversation_id": null,
